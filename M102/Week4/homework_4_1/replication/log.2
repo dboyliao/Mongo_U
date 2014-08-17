@@ -1,0 +1,688 @@
+2014-08-12T20:46:34.816+0800 [initandlisten] MongoDB starting : pid=25975 port=27002 dbpath=/Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2 64-bit host=DboyQmal.local
+2014-08-12T20:46:34.816+0800 [initandlisten] 
+2014-08-12T20:46:34.816+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2014-08-12T20:46:34.817+0800 [initandlisten] db version v2.6.3
+2014-08-12T20:46:34.817+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-12T20:46:34.817+0800 [initandlisten] build info: Darwin mci-osx108-3.build.10gen.cc 12.3.0 Darwin Kernel Version 12.3.0: Sun Jan  6 22:37:10 PST 2013; root:xnu-2050.22.13~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2014-08-12T20:46:34.817+0800 [initandlisten] allocator: system
+2014-08-12T20:46:34.817+0800 [initandlisten] options: { net: { port: 27002 }, processManagement: { fork: true }, replication: { oplogSizeMB: 50, replSet: "qmal" }, storage: { dbPath: "2" }, systemLog: { destination: "file", logAppend: true, path: "log.2" } }
+2014-08-12T20:46:34.818+0800 [initandlisten] journal dir=/Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/journal
+2014-08-12T20:46:34.819+0800 [initandlisten] recover : no journal files present, no recovery needed
+2014-08-12T20:46:34.863+0800 [FileAllocator] allocating new datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/local.ns, filling with zeroes...
+2014-08-12T20:46:34.864+0800 [FileAllocator] creating directory /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/_tmp
+2014-08-12T20:46:34.982+0800 [FileAllocator] done allocating datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/local.ns, size: 16MB,  took 0.117 secs
+2014-08-12T20:46:35.358+0800 [FileAllocator] allocating new datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/local.0, filling with zeroes...
+2014-08-12T20:46:36.264+0800 [FileAllocator] done allocating datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/local.0, size: 64MB,  took 0.905 secs
+2014-08-12T20:46:36.617+0800 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-08-12T20:46:36.635+0800 [initandlisten] 	 added index to empty collection
+2014-08-12T20:46:36.635+0800 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 1772ms
+2014-08-12T20:46:36.636+0800 [initandlisten] waiting for connections on port 27002
+2014-08-12T20:46:36.701+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:36.701+0800 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-08-12T20:46:37.703+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:38.705+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:39.707+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:40.709+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:41.711+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:42.712+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:43.714+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:44.715+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:45.717+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:46.718+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:47.719+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:48.720+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:49.722+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:50.723+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:51.725+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:52.727+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:53.728+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:54.730+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:55.731+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:56.733+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:57.734+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:58.735+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:46:59.737+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:00.738+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:01.739+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:02.741+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:03.743+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:04.745+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:05.746+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:06.748+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:07.749+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:08.750+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:09.752+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:10.753+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:11.755+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:12.756+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:13.759+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:14.786+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:15.788+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:16.790+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:17.792+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:18.794+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:19.795+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:20.797+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:21.799+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:22.800+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:23.801+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:24.803+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:25.804+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:26.806+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:27.808+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:28.809+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:29.811+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:30.812+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:31.814+0800 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-08-12T20:47:32.478+0800 [initandlisten] connection accepted from 192.168.0.117:60210 #1 (1 connection now open)
+2014-08-12T20:47:32.816+0800 [rsStart] trying to contact DboyQmal.local:27001
+2014-08-12T20:47:32.819+0800 [rsStart] replSet I am DboyQmal.local:27002
+2014-08-12T20:47:32.819+0800 [rsStart] replSet got config version 2 from a remote, saving locally
+2014-08-12T20:47:32.819+0800 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "qmal", version: 2, members: [ { _id: 0, host: "DboyQmal.local:27001" }, { _id: 1, host: "DboyQmal.local:27002" } ] }
+2014-08-12T20:47:32.852+0800 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-08-12T20:47:32.853+0800 [rsStart] 	 added index to empty collection
+2014-08-12T20:47:32.853+0800 [rsStart] replSet saveConfigLocally done
+2014-08-12T20:47:32.986+0800 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-08-12T20:47:32.987+0800 [rsStart] 	 added index to empty collection
+2014-08-12T20:47:32.987+0800 [rsStart] replSet STARTUP2
+2014-08-12T20:47:32.988+0800 [rsMgr] replSet total number of votes is even - add arbiter or give one member an extra vote
+2014-08-12T20:47:32.988+0800 [rsSync] ******
+2014-08-12T20:47:32.989+0800 [rsSync] creating replication oplog of size: 50MB...
+2014-08-12T20:47:33.021+0800 [rsSync] ******
+2014-08-12T20:47:33.021+0800 [rsSync] replSet initial sync pending
+2014-08-12T20:47:33.021+0800 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2014-08-12T20:47:34.820+0800 [rsHealthPoll] replSet member DboyQmal.local:27001 is up
+2014-08-12T20:47:34.820+0800 [rsHealthPoll] replSet member DboyQmal.local:27001 is now in state PRIMARY
+2014-08-12T20:47:34.873+0800 [clientcursormon] mem (MB) res:8 virt:2673
+2014-08-12T20:47:34.874+0800 [clientcursormon]  mapped (incl journal view):160
+2014-08-12T20:47:34.874+0800 [clientcursormon]  connections:1
+2014-08-12T20:47:34.874+0800 [clientcursormon]  replication threads:32
+2014-08-12T20:47:46.826+0800 [rsMgr] replset msgReceivedNewConfig version: version: 3
+2014-08-12T20:47:46.827+0800 [rsMgr] replSet info saving a newer config version to local.system.replset: { _id: "qmal", version: 3, members: [ { _id: 0, host: "DboyQmal.local:27001" }, { _id: 1, host: "DboyQmal.local:27002" }, { _id: 2, host: "DboyQmal.local:27003" } ] }
+2014-08-12T20:47:46.827+0800 [rsMgr] replSet saveConfigLocally done
+2014-08-12T20:47:46.828+0800 [rsMgr] replSet info : additive change to configuration
+2014-08-12T20:47:46.828+0800 [rsMgr] replSet replSetReconfig new config saved locally
+2014-08-12T20:47:46.829+0800 [rsHealthPoll] replset info DboyQmal.local:27003 thinks that we are down
+2014-08-12T20:47:46.829+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is up
+2014-08-12T20:47:46.830+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is now in state STARTUP2
+2014-08-12T20:47:47.892+0800 [initandlisten] connection accepted from 192.168.0.117:60215 #2 (2 connections now open)
+2014-08-12T20:47:49.024+0800 [rsSync] replSet initial sync pending
+2014-08-12T20:47:49.024+0800 [rsSync] replSet syncing to: DboyQmal.local:27001
+2014-08-12T20:47:49.060+0800 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2014-08-12T20:47:49.061+0800 [rsSync] 	 added index to empty collection
+2014-08-12T20:47:49.062+0800 [rsSync] replSet initial sync drop all databases
+2014-08-12T20:47:49.062+0800 [rsSync] dropAllDatabasesExceptLocal 1
+2014-08-12T20:47:49.062+0800 [rsSync] replSet initial sync clone all databases
+2014-08-12T20:47:49.063+0800 [rsSync] replSet initial sync cloning db: replication
+2014-08-12T20:47:49.065+0800 [FileAllocator] allocating new datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/replication.ns, filling with zeroes...
+2014-08-12T20:47:49.079+0800 [FileAllocator] done allocating datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/replication.ns, size: 16MB,  took 0.014 secs
+2014-08-12T20:47:49.407+0800 [FileAllocator] allocating new datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/replication.0, filling with zeroes...
+2014-08-12T20:47:50.294+0800 [FileAllocator] done allocating datafile /Users/DboyLiao/Documents/Mongo_U/M102/Week4/homework_4_1/replication/2/replication.0, size: 64MB,  took 0.886 secs
+2014-08-12T20:47:50.715+0800 [rsSync] build index on: replication.foo properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "replication.foo" }
+2014-08-12T20:47:50.724+0800 [rsSync] 	 building index using bulk method
+2014-08-12T20:47:50.756+0800 [rsSync] build index done.  scanned 5000 total records. 0.039 secs
+2014-08-12T20:47:50.756+0800 [rsSync] replSet initial sync cloning db: admin
+2014-08-12T20:47:50.792+0800 [rsSync] replSet initial sync data copy, starting syncup
+2014-08-12T20:47:50.793+0800 [rsSync] oplog sync 1 of 3
+2014-08-12T20:47:50.798+0800 [rsSync] oplog sync 2 of 3
+2014-08-12T20:47:50.799+0800 [rsSync] replSet initial sync building indexes
+2014-08-12T20:47:50.800+0800 [rsSync] replSet initial sync cloning indexes for : replication
+2014-08-12T20:47:50.800+0800 [rsSync] replSet initial sync cloning indexes for : admin
+2014-08-12T20:47:50.801+0800 [rsSync] oplog sync 3 of 3
+2014-08-12T20:47:50.802+0800 [rsSync] replSet initial sync finishing up
+2014-08-12T20:47:50.807+0800 [rsSync] replSet set minValid=53ea0cf1:1
+2014-08-12T20:47:50.814+0800 [rsSync] replSet RECOVERING
+2014-08-12T20:47:50.814+0800 [rsSync] replSet initial sync done
+2014-08-12T20:47:51.000+0800 [rsBackgroundSync] replSet syncing to: DboyQmal.local:27001
+2014-08-12T20:47:51.002+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27001
+2014-08-12T20:47:51.815+0800 [rsSync] replSet SECONDARY
+2014-08-12T20:48:00.499+0800 [conn1] end connection 192.168.0.117:60210 (1 connection now open)
+2014-08-12T20:48:00.499+0800 [initandlisten] connection accepted from 192.168.0.117:60221 #3 (2 connections now open)
+2014-08-12T20:48:04.840+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is now in state RECOVERING
+2014-08-12T20:48:06.841+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is now in state SECONDARY
+2014-08-12T20:48:15.912+0800 [conn2] end connection 192.168.0.117:60215 (1 connection now open)
+2014-08-12T20:48:15.913+0800 [initandlisten] connection accepted from 192.168.0.117:60229 #4 (2 connections now open)
+2014-08-12T20:48:30.521+0800 [conn3] end connection 192.168.0.117:60221 (1 connection now open)
+2014-08-12T20:48:30.522+0800 [initandlisten] connection accepted from 192.168.0.117:60231 #5 (2 connections now open)
+2014-08-12T20:48:34.886+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T20:48:34.886+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T20:48:34.887+0800 [clientcursormon]  connections:2
+2014-08-12T20:48:34.887+0800 [clientcursormon]  replication threads:32
+2014-08-12T20:48:45.935+0800 [conn4] end connection 192.168.0.117:60229 (1 connection now open)
+2014-08-12T20:48:45.936+0800 [initandlisten] connection accepted from 192.168.0.117:60236 #6 (2 connections now open)
+2014-08-12T20:49:00.544+0800 [conn5] end connection 192.168.0.117:60231 (1 connection now open)
+2014-08-12T20:49:00.545+0800 [initandlisten] connection accepted from 192.168.0.117:60238 #7 (2 connections now open)
+2014-08-12T20:49:15.958+0800 [conn6] end connection 192.168.0.117:60236 (1 connection now open)
+2014-08-12T20:49:15.959+0800 [initandlisten] connection accepted from 192.168.0.117:60242 #8 (2 connections now open)
+2014-08-12T20:49:30.565+0800 [conn7] end connection 192.168.0.117:60238 (1 connection now open)
+2014-08-12T20:49:30.566+0800 [initandlisten] connection accepted from 192.168.0.117:60244 #9 (3 connections now open)
+2014-08-12T20:49:43.646+0800 [initandlisten] connection accepted from 127.0.0.1:60248 #10 (3 connections now open)
+2014-08-12T20:49:45.977+0800 [conn8] end connection 192.168.0.117:60242 (2 connections now open)
+2014-08-12T20:49:45.978+0800 [initandlisten] connection accepted from 192.168.0.117:60249 #11 (3 connections now open)
+2014-08-12T20:50:00.584+0800 [conn9] end connection 192.168.0.117:60244 (2 connections now open)
+2014-08-12T20:50:00.585+0800 [initandlisten] connection accepted from 192.168.0.117:60253 #12 (3 connections now open)
+2014-08-12T20:50:15.995+0800 [conn11] end connection 192.168.0.117:60249 (2 connections now open)
+2014-08-12T20:50:15.995+0800 [initandlisten] connection accepted from 192.168.0.117:60261 #13 (3 connections now open)
+2014-08-12T20:50:30.602+0800 [conn12] end connection 192.168.0.117:60253 (2 connections now open)
+2014-08-12T20:50:30.603+0800 [initandlisten] connection accepted from 192.168.0.117:60263 #14 (3 connections now open)
+2014-08-12T20:50:46.016+0800 [conn13] end connection 192.168.0.117:60261 (2 connections now open)
+2014-08-12T20:50:46.017+0800 [initandlisten] connection accepted from 192.168.0.117:60267 #15 (4 connections now open)
+2014-08-12T20:51:00.625+0800 [conn14] end connection 192.168.0.117:60263 (2 connections now open)
+2014-08-12T20:51:00.626+0800 [initandlisten] connection accepted from 192.168.0.117:60269 #16 (4 connections now open)
+2014-08-12T20:51:16.039+0800 [conn15] end connection 192.168.0.117:60267 (2 connections now open)
+2014-08-12T20:51:16.040+0800 [initandlisten] connection accepted from 192.168.0.117:60273 #17 (3 connections now open)
+2014-08-12T20:51:26.407+0800 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: DboyQmal.local:27001
+2014-08-12T20:51:26.407+0800 [rsBackgroundSync] replSet syncing to: DboyQmal.local:27001
+2014-08-12T20:51:26.409+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27001
+2014-08-12T20:51:26.983+0800 [rsHealthPoll] replSet member DboyQmal.local:27001 is now in state SECONDARY
+2014-08-12T20:51:26.984+0800 [rsMgr] not electing self, DboyQmal.local:27003 would veto with 'DboyQmal.local:27002 is trying to elect itself but DboyQmal.local:27001 is already primary and more up-to-date'
+2014-08-12T20:51:28.150+0800 [conn17] replSet info voting yea for DboyQmal.local:27003 (2)
+2014-08-12T20:51:30.644+0800 [conn16] end connection 192.168.0.117:60269 (2 connections now open)
+2014-08-12T20:51:31.480+0800 [initandlisten] connection accepted from 192.168.0.117:60280 #18 (3 connections now open)
+2014-08-12T20:51:31.481+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is now in state PRIMARY
+2014-08-12T20:51:46.061+0800 [conn17] end connection 192.168.0.117:60273 (2 connections now open)
+2014-08-12T20:51:46.062+0800 [initandlisten] connection accepted from 192.168.0.117:60286 #19 (3 connections now open)
+2014-08-12T20:52:01.504+0800 [conn18] end connection 192.168.0.117:60280 (2 connections now open)
+2014-08-12T20:52:01.505+0800 [initandlisten] connection accepted from 192.168.0.117:60290 #20 (4 connections now open)
+2014-08-12T20:52:16.085+0800 [conn19] end connection 192.168.0.117:60286 (2 connections now open)
+2014-08-12T20:52:16.085+0800 [initandlisten] connection accepted from 192.168.0.117:60293 #21 (3 connections now open)
+2014-08-12T20:52:31.528+0800 [conn20] end connection 192.168.0.117:60290 (2 connections now open)
+2014-08-12T20:52:31.529+0800 [initandlisten] connection accepted from 192.168.0.117:60296 #22 (3 connections now open)
+2014-08-12T20:52:46.104+0800 [conn21] end connection 192.168.0.117:60293 (2 connections now open)
+2014-08-12T20:52:46.105+0800 [initandlisten] connection accepted from 192.168.0.117:60299 #23 (3 connections now open)
+2014-08-12T20:53:01.547+0800 [conn22] end connection 192.168.0.117:60296 (2 connections now open)
+2014-08-12T20:53:01.548+0800 [initandlisten] connection accepted from 192.168.0.117:60303 #24 (3 connections now open)
+2014-08-12T20:53:16.125+0800 [conn23] end connection 192.168.0.117:60299 (2 connections now open)
+2014-08-12T20:53:16.126+0800 [initandlisten] connection accepted from 192.168.0.117:60306 #25 (3 connections now open)
+2014-08-12T20:53:31.565+0800 [conn24] end connection 192.168.0.117:60303 (2 connections now open)
+2014-08-12T20:53:31.866+0800 [initandlisten] connection accepted from 192.168.0.117:60308 #26 (3 connections now open)
+2014-08-12T20:53:34.648+0800 [conn25] end connection 192.168.0.117:60306 (2 connections now open)
+2014-08-12T20:53:34.649+0800 [initandlisten] connection accepted from 192.168.0.117:60312 #27 (3 connections now open)
+2014-08-12T20:53:34.949+0800 [clientcursormon] mem (MB) res:12 virt:2836
+2014-08-12T20:53:34.949+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T20:53:34.950+0800 [clientcursormon]  connections:3
+2014-08-12T20:53:34.950+0800 [clientcursormon]  replication threads:32
+2014-08-12T20:53:35.446+0800 [conn26] end connection 192.168.0.117:60308 (2 connections now open)
+2014-08-12T20:53:35.447+0800 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: DboyQmal.local:27001
+2014-08-12T20:53:35.448+0800 [rsBackgroundSync] replSet syncing to: DboyQmal.local:27003
+2014-08-12T20:53:35.449+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.453+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.455+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.459+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.460+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.464+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.466+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.470+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.471+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.475+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.477+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.481+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.482+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.486+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.488+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.491+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.493+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.496+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.498+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.502+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.503+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.507+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.509+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.512+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.514+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.517+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.519+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.523+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.524+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.528+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.529+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.533+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.534+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.538+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.540+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.543+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.545+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.549+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.550+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.554+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.555+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.559+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.560+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.564+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.566+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.569+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.571+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.574+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.576+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.579+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.580+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.584+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.585+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.589+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.591+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.595+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.596+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.600+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.601+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.605+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.607+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.610+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.612+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.616+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.617+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.621+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.622+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.626+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.627+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.631+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.632+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.636+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.638+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.641+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.643+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.646+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.647+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.651+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.653+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.656+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.658+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.662+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.663+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.667+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.668+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.672+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.673+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.677+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.679+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.683+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.684+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.688+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.690+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.693+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.695+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.698+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.700+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.704+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.705+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.709+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.710+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.714+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.715+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.719+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.720+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.724+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.726+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.729+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.731+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.735+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.736+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.740+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.741+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.745+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.746+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.750+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.770+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.775+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.777+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.781+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.782+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.786+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.787+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.791+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.793+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.796+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.797+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.801+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.802+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.806+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.807+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.811+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.812+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.816+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.817+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.821+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.822+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.826+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.828+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.831+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.833+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.837+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.838+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.842+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.843+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.847+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.848+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.852+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.853+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.857+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.859+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.862+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.864+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.867+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27001 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.868+0800 [rsMgr] replset msgReceivedNewConfig version: version: 4
+2014-08-12T20:53:35.869+0800 [rsMgr] replSet info saving a newer config version to local.system.replset: { _id: "qmal", version: 4, members: [ { _id: 1, host: "DboyQmal.local:27002" }, { _id: 2, host: "DboyQmal.local:27003" } ] }
+2014-08-12T20:53:35.869+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:53:35.870+0800 [rsMgr] replSet saveConfigLocally done
+2014-08-12T20:53:35.870+0800 [rsMgr] replSet replSetReconfig new config saved locally
+2014-08-12T20:53:35.871+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is up
+2014-08-12T20:53:35.871+0800 [rsHealthPoll] replSet member DboyQmal.local:27003 is now in state PRIMARY
+2014-08-12T20:53:35.872+0800 [rsMgr] couldn't find member: 0
+2014-08-12T20:53:35.873+0800 [rsBackgroundSync] changing sync target because current sync target's most recent OpTime is Aug 12 20:47:45:1 which is more than 30 seconds behind member DboyQmal.local:27003 whose most recent OpTime is 1407848014
+2014-08-12T20:53:35.875+0800 [rsBackgroundSync] replset setting syncSourceFeedback to DboyQmal.local:27003
+2014-08-12T20:54:04.672+0800 [conn27] end connection 192.168.0.117:60312 (1 connection now open)
+2014-08-12T20:54:04.672+0800 [initandlisten] connection accepted from 192.168.0.117:60536 #28 (2 connections now open)
+2014-08-12T20:54:34.690+0800 [conn28] end connection 192.168.0.117:60536 (1 connection now open)
+2014-08-12T20:54:34.691+0800 [initandlisten] connection accepted from 192.168.0.117:60602 #29 (2 connections now open)
+2014-08-12T20:55:04.711+0800 [conn29] end connection 192.168.0.117:60602 (1 connection now open)
+2014-08-12T20:55:04.712+0800 [initandlisten] connection accepted from 192.168.0.117:60664 #30 (2 connections now open)
+2014-08-12T20:55:13.813+0800 [initandlisten] connection accepted from 127.0.0.1:60684 #31 (3 connections now open)
+2014-08-12T20:55:34.731+0800 [conn30] end connection 192.168.0.117:60664 (2 connections now open)
+2014-08-12T20:55:34.731+0800 [initandlisten] connection accepted from 192.168.0.117:60724 #32 (3 connections now open)
+2014-08-12T20:56:04.757+0800 [conn32] end connection 192.168.0.117:60724 (2 connections now open)
+2014-08-12T20:56:04.758+0800 [initandlisten] connection accepted from 192.168.0.117:60789 #33 (3 connections now open)
+2014-08-12T20:56:34.785+0800 [conn33] end connection 192.168.0.117:60789 (2 connections now open)
+2014-08-12T20:56:34.786+0800 [initandlisten] connection accepted from 192.168.0.117:60851 #34 (3 connections now open)
+2014-08-12T20:57:04.806+0800 [conn34] end connection 192.168.0.117:60851 (2 connections now open)
+2014-08-12T20:57:04.807+0800 [initandlisten] connection accepted from 192.168.0.117:60913 #35 (3 connections now open)
+2014-08-12T20:57:34.825+0800 [conn35] end connection 192.168.0.117:60913 (2 connections now open)
+2014-08-12T20:57:34.826+0800 [initandlisten] connection accepted from 192.168.0.117:60972 #36 (3 connections now open)
+2014-08-12T20:58:04.846+0800 [conn36] end connection 192.168.0.117:60972 (2 connections now open)
+2014-08-12T20:58:04.847+0800 [initandlisten] connection accepted from 192.168.0.117:61034 #37 (3 connections now open)
+2014-08-12T20:58:34.868+0800 [conn37] end connection 192.168.0.117:61034 (2 connections now open)
+2014-08-12T20:58:34.869+0800 [initandlisten] connection accepted from 192.168.0.117:61095 #38 (3 connections now open)
+2014-08-12T20:58:35.015+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T20:58:35.015+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T20:58:35.016+0800 [clientcursormon]  connections:3
+2014-08-12T20:58:35.016+0800 [clientcursormon]  replication threads:32
+2014-08-12T20:59:04.889+0800 [conn38] end connection 192.168.0.117:61095 (2 connections now open)
+2014-08-12T20:59:04.890+0800 [initandlisten] connection accepted from 192.168.0.117:61157 #39 (4 connections now open)
+2014-08-12T20:59:35.101+0800 [conn39] end connection 192.168.0.117:61157 (2 connections now open)
+2014-08-12T20:59:35.101+0800 [initandlisten] connection accepted from 192.168.0.117:61217 #40 (3 connections now open)
+2014-08-12T21:00:05.121+0800 [conn40] end connection 192.168.0.117:61217 (2 connections now open)
+2014-08-12T21:00:05.122+0800 [initandlisten] connection accepted from 192.168.0.117:61278 #41 (3 connections now open)
+2014-08-12T21:00:35.139+0800 [conn41] end connection 192.168.0.117:61278 (2 connections now open)
+2014-08-12T21:00:35.139+0800 [initandlisten] connection accepted from 192.168.0.117:61340 #42 (3 connections now open)
+2014-08-12T21:01:05.158+0800 [conn42] end connection 192.168.0.117:61340 (2 connections now open)
+2014-08-12T21:01:05.159+0800 [initandlisten] connection accepted from 192.168.0.117:61403 #43 (3 connections now open)
+2014-08-12T21:01:35.183+0800 [conn43] end connection 192.168.0.117:61403 (2 connections now open)
+2014-08-12T21:01:35.184+0800 [initandlisten] connection accepted from 192.168.0.117:61462 #44 (3 connections now open)
+2014-08-12T21:02:05.209+0800 [conn44] end connection 192.168.0.117:61462 (2 connections now open)
+2014-08-12T21:02:05.210+0800 [initandlisten] connection accepted from 192.168.0.117:61523 #45 (4 connections now open)
+2014-08-12T21:02:35.238+0800 [conn45] end connection 192.168.0.117:61523 (2 connections now open)
+2014-08-12T21:02:35.239+0800 [initandlisten] connection accepted from 192.168.0.117:61585 #46 (3 connections now open)
+2014-08-12T21:03:05.269+0800 [conn46] end connection 192.168.0.117:61585 (2 connections now open)
+2014-08-12T21:03:05.270+0800 [initandlisten] connection accepted from 192.168.0.117:61647 #47 (3 connections now open)
+2014-08-12T21:03:35.105+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:03:35.105+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:03:35.105+0800 [clientcursormon]  connections:3
+2014-08-12T21:03:35.106+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:03:35.299+0800 [conn47] end connection 192.168.0.117:61647 (2 connections now open)
+2014-08-12T21:03:35.300+0800 [initandlisten] connection accepted from 192.168.0.117:61706 #48 (3 connections now open)
+2014-08-12T21:04:05.335+0800 [conn48] end connection 192.168.0.117:61706 (2 connections now open)
+2014-08-12T21:04:05.336+0800 [initandlisten] connection accepted from 192.168.0.117:61767 #49 (3 connections now open)
+2014-08-12T21:04:35.363+0800 [conn49] end connection 192.168.0.117:61767 (2 connections now open)
+2014-08-12T21:04:35.364+0800 [initandlisten] connection accepted from 192.168.0.117:61829 #50 (3 connections now open)
+2014-08-12T21:05:05.392+0800 [conn50] end connection 192.168.0.117:61829 (2 connections now open)
+2014-08-12T21:05:05.393+0800 [initandlisten] connection accepted from 192.168.0.117:61891 #51 (3 connections now open)
+2014-08-12T21:05:35.418+0800 [conn51] end connection 192.168.0.117:61891 (2 connections now open)
+2014-08-12T21:05:35.418+0800 [initandlisten] connection accepted from 192.168.0.117:61950 #52 (4 connections now open)
+2014-08-12T21:06:05.438+0800 [conn52] end connection 192.168.0.117:61950 (2 connections now open)
+2014-08-12T21:06:05.439+0800 [initandlisten] connection accepted from 192.168.0.117:62012 #53 (3 connections now open)
+2014-08-12T21:06:35.460+0800 [conn53] end connection 192.168.0.117:62012 (2 connections now open)
+2014-08-12T21:06:35.460+0800 [initandlisten] connection accepted from 192.168.0.117:62073 #54 (3 connections now open)
+2014-08-12T21:07:05.481+0800 [conn54] end connection 192.168.0.117:62073 (2 connections now open)
+2014-08-12T21:07:05.481+0800 [initandlisten] connection accepted from 192.168.0.117:62135 #55 (3 connections now open)
+2014-08-12T21:07:35.496+0800 [conn55] end connection 192.168.0.117:62135 (2 connections now open)
+2014-08-12T21:07:35.497+0800 [initandlisten] connection accepted from 192.168.0.117:62193 #56 (3 connections now open)
+2014-08-12T21:08:05.516+0800 [conn56] end connection 192.168.0.117:62193 (2 connections now open)
+2014-08-12T21:08:05.517+0800 [initandlisten] connection accepted from 192.168.0.117:62256 #57 (3 connections now open)
+2014-08-12T21:08:35.185+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:08:35.186+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:08:35.186+0800 [clientcursormon]  connections:3
+2014-08-12T21:08:35.186+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:08:35.538+0800 [conn57] end connection 192.168.0.117:62256 (2 connections now open)
+2014-08-12T21:08:35.539+0800 [initandlisten] connection accepted from 192.168.0.117:62317 #58 (3 connections now open)
+2014-08-12T21:09:05.557+0800 [conn58] end connection 192.168.0.117:62317 (2 connections now open)
+2014-08-12T21:09:05.558+0800 [initandlisten] connection accepted from 192.168.0.117:62378 #59 (4 connections now open)
+2014-08-12T21:09:35.576+0800 [conn59] end connection 192.168.0.117:62378 (2 connections now open)
+2014-08-12T21:09:35.577+0800 [initandlisten] connection accepted from 192.168.0.117:62438 #60 (3 connections now open)
+2014-08-12T21:10:05.597+0800 [conn60] end connection 192.168.0.117:62438 (2 connections now open)
+2014-08-12T21:10:05.597+0800 [initandlisten] connection accepted from 192.168.0.117:62499 #61 (4 connections now open)
+2014-08-12T21:10:35.621+0800 [conn61] end connection 192.168.0.117:62499 (2 connections now open)
+2014-08-12T21:10:35.622+0800 [initandlisten] connection accepted from 192.168.0.117:62561 #62 (4 connections now open)
+2014-08-12T21:11:05.655+0800 [conn62] end connection 192.168.0.117:62561 (2 connections now open)
+2014-08-12T21:11:05.656+0800 [initandlisten] connection accepted from 192.168.0.117:62623 #63 (3 connections now open)
+2014-08-12T21:11:35.680+0800 [conn63] end connection 192.168.0.117:62623 (2 connections now open)
+2014-08-12T21:11:35.924+0800 [initandlisten] connection accepted from 192.168.0.117:62682 #64 (3 connections now open)
+2014-08-12T21:12:05.955+0800 [conn64] end connection 192.168.0.117:62682 (2 connections now open)
+2014-08-12T21:12:05.955+0800 [initandlisten] connection accepted from 192.168.0.117:62743 #65 (3 connections now open)
+2014-08-12T21:12:35.987+0800 [conn65] end connection 192.168.0.117:62743 (2 connections now open)
+2014-08-12T21:12:35.988+0800 [initandlisten] connection accepted from 192.168.0.117:62804 #66 (3 connections now open)
+2014-08-12T21:13:06.023+0800 [conn66] end connection 192.168.0.117:62804 (2 connections now open)
+2014-08-12T21:13:06.024+0800 [initandlisten] connection accepted from 192.168.0.117:62866 #67 (4 connections now open)
+2014-08-12T21:13:35.283+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:13:35.283+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:13:35.284+0800 [clientcursormon]  connections:3
+2014-08-12T21:13:35.284+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:13:36.051+0800 [conn67] end connection 192.168.0.117:62866 (2 connections now open)
+2014-08-12T21:13:36.051+0800 [initandlisten] connection accepted from 192.168.0.117:62928 #68 (3 connections now open)
+2014-08-12T21:14:06.077+0800 [conn68] end connection 192.168.0.117:62928 (2 connections now open)
+2014-08-12T21:14:06.078+0800 [initandlisten] connection accepted from 192.168.0.117:62989 #69 (3 connections now open)
+2014-08-12T21:14:36.107+0800 [conn69] end connection 192.168.0.117:62989 (2 connections now open)
+2014-08-12T21:14:36.108+0800 [initandlisten] connection accepted from 192.168.0.117:63051 #70 (3 connections now open)
+2014-08-12T21:15:06.136+0800 [conn70] end connection 192.168.0.117:63051 (2 connections now open)
+2014-08-12T21:15:06.137+0800 [initandlisten] connection accepted from 192.168.0.117:63112 #71 (3 connections now open)
+2014-08-12T21:15:36.164+0800 [conn71] end connection 192.168.0.117:63112 (2 connections now open)
+2014-08-12T21:15:36.165+0800 [initandlisten] connection accepted from 192.168.0.117:63174 #72 (3 connections now open)
+2014-08-12T21:16:06.195+0800 [conn72] end connection 192.168.0.117:63174 (2 connections now open)
+2014-08-12T21:16:06.196+0800 [initandlisten] connection accepted from 192.168.0.117:63238 #73 (4 connections now open)
+2014-08-12T21:16:36.227+0800 [conn73] end connection 192.168.0.117:63238 (2 connections now open)
+2014-08-12T21:16:36.228+0800 [initandlisten] connection accepted from 192.168.0.117:63299 #74 (3 connections now open)
+2014-08-12T21:17:06.258+0800 [conn74] end connection 192.168.0.117:63299 (2 connections now open)
+2014-08-12T21:17:06.744+0800 [initandlisten] connection accepted from 192.168.0.117:63360 #75 (3 connections now open)
+2014-08-12T21:17:36.772+0800 [conn75] end connection 192.168.0.117:63360 (2 connections now open)
+2014-08-12T21:17:36.772+0800 [initandlisten] connection accepted from 192.168.0.117:63421 #76 (3 connections now open)
+2014-08-12T21:18:06.804+0800 [conn76] end connection 192.168.0.117:63421 (2 connections now open)
+2014-08-12T21:18:06.805+0800 [initandlisten] connection accepted from 192.168.0.117:63483 #77 (4 connections now open)
+2014-08-12T21:18:35.405+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:18:35.405+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:18:35.406+0800 [clientcursormon]  connections:3
+2014-08-12T21:18:35.406+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:18:36.834+0800 [conn77] end connection 192.168.0.117:63483 (2 connections now open)
+2014-08-12T21:18:36.835+0800 [initandlisten] connection accepted from 192.168.0.117:63544 #78 (3 connections now open)
+2014-08-12T21:19:06.857+0800 [conn78] end connection 192.168.0.117:63544 (2 connections now open)
+2014-08-12T21:19:07.237+0800 [initandlisten] connection accepted from 192.168.0.117:63605 #79 (3 connections now open)
+2014-08-12T21:19:37.274+0800 [conn79] end connection 192.168.0.117:63605 (2 connections now open)
+2014-08-12T21:19:37.275+0800 [initandlisten] connection accepted from 192.168.0.117:63665 #80 (3 connections now open)
+2014-08-12T21:20:07.303+0800 [conn80] end connection 192.168.0.117:63665 (2 connections now open)
+2014-08-12T21:20:07.304+0800 [initandlisten] connection accepted from 192.168.0.117:63726 #81 (3 connections now open)
+2014-08-12T21:20:37.331+0800 [conn81] end connection 192.168.0.117:63726 (2 connections now open)
+2014-08-12T21:20:37.332+0800 [initandlisten] connection accepted from 192.168.0.117:63794 #82 (3 connections now open)
+2014-08-12T21:21:07.360+0800 [conn82] end connection 192.168.0.117:63794 (2 connections now open)
+2014-08-12T21:21:07.830+0800 [initandlisten] connection accepted from 192.168.0.117:63859 #83 (3 connections now open)
+2014-08-12T21:21:37.862+0800 [conn83] end connection 192.168.0.117:63859 (2 connections now open)
+2014-08-12T21:21:37.863+0800 [initandlisten] connection accepted from 192.168.0.117:63919 #84 (3 connections now open)
+2014-08-12T21:22:07.892+0800 [conn84] end connection 192.168.0.117:63919 (2 connections now open)
+2014-08-12T21:22:07.893+0800 [initandlisten] connection accepted from 192.168.0.117:63981 #85 (3 connections now open)
+2014-08-12T21:22:37.920+0800 [conn85] end connection 192.168.0.117:63981 (2 connections now open)
+2014-08-12T21:22:37.921+0800 [initandlisten] connection accepted from 192.168.0.117:64043 #86 (3 connections now open)
+2014-08-12T21:23:07.951+0800 [conn86] end connection 192.168.0.117:64043 (2 connections now open)
+2014-08-12T21:23:08.386+0800 [initandlisten] connection accepted from 192.168.0.117:64105 #87 (3 connections now open)
+2014-08-12T21:23:35.528+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:23:35.529+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:23:35.529+0800 [clientcursormon]  connections:3
+2014-08-12T21:23:35.529+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:23:38.417+0800 [conn87] end connection 192.168.0.117:64105 (2 connections now open)
+2014-08-12T21:23:38.418+0800 [initandlisten] connection accepted from 192.168.0.117:64165 #88 (3 connections now open)
+2014-08-12T21:24:08.448+0800 [conn88] end connection 192.168.0.117:64165 (2 connections now open)
+2014-08-12T21:24:08.449+0800 [initandlisten] connection accepted from 192.168.0.117:64227 #89 (3 connections now open)
+2014-08-12T21:24:38.481+0800 [conn89] end connection 192.168.0.117:64227 (2 connections now open)
+2014-08-12T21:24:38.482+0800 [initandlisten] connection accepted from 192.168.0.117:64290 #90 (3 connections now open)
+2014-08-12T21:25:08.515+0800 [conn90] end connection 192.168.0.117:64290 (2 connections now open)
+2014-08-12T21:25:08.948+0800 [initandlisten] connection accepted from 192.168.0.117:64350 #91 (3 connections now open)
+2014-08-12T21:25:38.981+0800 [conn91] end connection 192.168.0.117:64350 (2 connections now open)
+2014-08-12T21:25:38.982+0800 [initandlisten] connection accepted from 192.168.0.117:64411 #92 (3 connections now open)
+2014-08-12T21:26:09.006+0800 [conn92] end connection 192.168.0.117:64411 (2 connections now open)
+2014-08-12T21:26:09.007+0800 [initandlisten] connection accepted from 192.168.0.117:64474 #93 (3 connections now open)
+2014-08-12T21:26:39.030+0800 [conn93] end connection 192.168.0.117:64474 (2 connections now open)
+2014-08-12T21:26:39.031+0800 [initandlisten] connection accepted from 192.168.0.117:64536 #94 (3 connections now open)
+2014-08-12T21:27:09.060+0800 [conn94] end connection 192.168.0.117:64536 (2 connections now open)
+2014-08-12T21:27:09.480+0800 [initandlisten] connection accepted from 192.168.0.117:64597 #95 (3 connections now open)
+2014-08-12T21:27:39.508+0800 [conn95] end connection 192.168.0.117:64597 (2 connections now open)
+2014-08-12T21:27:39.509+0800 [initandlisten] connection accepted from 192.168.0.117:64658 #96 (3 connections now open)
+2014-08-12T21:28:09.535+0800 [conn96] end connection 192.168.0.117:64658 (2 connections now open)
+2014-08-12T21:28:09.536+0800 [initandlisten] connection accepted from 192.168.0.117:64721 #97 (3 connections now open)
+2014-08-12T21:28:35.644+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:28:35.644+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:28:35.645+0800 [clientcursormon]  connections:3
+2014-08-12T21:28:35.645+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:28:39.565+0800 [conn97] end connection 192.168.0.117:64721 (2 connections now open)
+2014-08-12T21:28:39.566+0800 [initandlisten] connection accepted from 192.168.0.117:64784 #98 (3 connections now open)
+2014-08-12T21:29:09.597+0800 [conn98] end connection 192.168.0.117:64784 (2 connections now open)
+2014-08-12T21:29:10.014+0800 [initandlisten] connection accepted from 192.168.0.117:64845 #99 (3 connections now open)
+2014-08-12T21:29:40.041+0800 [conn99] end connection 192.168.0.117:64845 (2 connections now open)
+2014-08-12T21:29:40.042+0800 [initandlisten] connection accepted from 192.168.0.117:64905 #100 (3 connections now open)
+2014-08-12T21:30:10.071+0800 [conn100] end connection 192.168.0.117:64905 (2 connections now open)
+2014-08-12T21:30:10.072+0800 [initandlisten] connection accepted from 192.168.0.117:64966 #101 (3 connections now open)
+2014-08-12T21:30:40.101+0800 [conn101] end connection 192.168.0.117:64966 (2 connections now open)
+2014-08-12T21:30:40.103+0800 [initandlisten] connection accepted from 192.168.0.117:65030 #102 (3 connections now open)
+2014-08-12T21:31:10.134+0800 [conn102] end connection 192.168.0.117:65030 (2 connections now open)
+2014-08-12T21:31:10.522+0800 [initandlisten] connection accepted from 192.168.0.117:65091 #103 (3 connections now open)
+2014-08-12T21:31:40.555+0800 [conn103] end connection 192.168.0.117:65091 (2 connections now open)
+2014-08-12T21:31:40.556+0800 [initandlisten] connection accepted from 192.168.0.117:65151 #104 (3 connections now open)
+2014-08-12T21:32:10.590+0800 [conn104] end connection 192.168.0.117:65151 (2 connections now open)
+2014-08-12T21:32:10.591+0800 [initandlisten] connection accepted from 192.168.0.117:65212 #105 (4 connections now open)
+2014-08-12T21:32:40.623+0800 [conn105] end connection 192.168.0.117:65212 (2 connections now open)
+2014-08-12T21:32:40.624+0800 [initandlisten] connection accepted from 192.168.0.117:65276 #106 (3 connections now open)
+2014-08-12T21:33:10.655+0800 [conn106] end connection 192.168.0.117:65276 (2 connections now open)
+2014-08-12T21:33:11.107+0800 [initandlisten] connection accepted from 192.168.0.117:65336 #107 (3 connections now open)
+2014-08-12T21:33:35.759+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:33:35.759+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:33:35.759+0800 [clientcursormon]  connections:3
+2014-08-12T21:33:35.760+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:33:41.133+0800 [conn107] end connection 192.168.0.117:65336 (2 connections now open)
+2014-08-12T21:33:41.134+0800 [initandlisten] connection accepted from 192.168.0.117:65397 #108 (3 connections now open)
+2014-08-12T21:34:11.167+0800 [conn108] end connection 192.168.0.117:65397 (2 connections now open)
+2014-08-12T21:34:11.168+0800 [initandlisten] connection accepted from 192.168.0.117:65458 #109 (3 connections now open)
+2014-08-12T21:34:41.197+0800 [conn109] end connection 192.168.0.117:65458 (2 connections now open)
+2014-08-12T21:34:41.198+0800 [initandlisten] connection accepted from 192.168.0.117:65522 #110 (3 connections now open)
+2014-08-12T21:35:11.226+0800 [conn110] end connection 192.168.0.117:65522 (2 connections now open)
+2014-08-12T21:35:11.644+0800 [initandlisten] connection accepted from 192.168.0.117:49199 #111 (3 connections now open)
+2014-08-12T21:35:41.681+0800 [conn111] end connection 192.168.0.117:49199 (2 connections now open)
+2014-08-12T21:35:41.682+0800 [initandlisten] connection accepted from 192.168.0.117:49259 #112 (3 connections now open)
+2014-08-12T21:36:11.724+0800 [conn112] end connection 192.168.0.117:49259 (2 connections now open)
+2014-08-12T21:36:11.725+0800 [initandlisten] connection accepted from 192.168.0.117:49321 #113 (3 connections now open)
+2014-08-12T21:36:41.756+0800 [conn113] end connection 192.168.0.117:49321 (2 connections now open)
+2014-08-12T21:36:41.757+0800 [initandlisten] connection accepted from 192.168.0.117:49384 #114 (3 connections now open)
+2014-08-12T21:37:11.789+0800 [conn114] end connection 192.168.0.117:49384 (2 connections now open)
+2014-08-12T21:37:12.288+0800 [initandlisten] connection accepted from 192.168.0.117:49444 #115 (3 connections now open)
+2014-08-12T21:37:42.317+0800 [conn115] end connection 192.168.0.117:49444 (2 connections now open)
+2014-08-12T21:37:42.318+0800 [initandlisten] connection accepted from 192.168.0.117:49505 #116 (4 connections now open)
+2014-08-12T21:38:12.349+0800 [conn116] end connection 192.168.0.117:49505 (2 connections now open)
+2014-08-12T21:38:12.350+0800 [initandlisten] connection accepted from 192.168.0.117:49567 #117 (3 connections now open)
+2014-08-12T21:38:35.868+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:38:35.869+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:38:35.869+0800 [clientcursormon]  connections:3
+2014-08-12T21:38:35.870+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:38:42.376+0800 [conn117] end connection 192.168.0.117:49567 (2 connections now open)
+2014-08-12T21:38:42.377+0800 [initandlisten] connection accepted from 192.168.0.117:49630 #118 (3 connections now open)
+2014-08-12T21:39:12.407+0800 [conn118] end connection 192.168.0.117:49630 (2 connections now open)
+2014-08-12T21:39:12.887+0800 [initandlisten] connection accepted from 192.168.0.117:49691 #119 (3 connections now open)
+2014-08-12T21:39:42.921+0800 [conn119] end connection 192.168.0.117:49691 (2 connections now open)
+2014-08-12T21:39:42.922+0800 [initandlisten] connection accepted from 192.168.0.117:49751 #120 (3 connections now open)
+2014-08-12T21:40:12.954+0800 [conn120] end connection 192.168.0.117:49751 (2 connections now open)
+2014-08-12T21:40:12.955+0800 [initandlisten] connection accepted from 192.168.0.117:49814 #121 (4 connections now open)
+2014-08-12T21:40:43.017+0800 [conn121] end connection 192.168.0.117:49814 (2 connections now open)
+2014-08-12T21:40:43.017+0800 [initandlisten] connection accepted from 192.168.0.117:49877 #122 (3 connections now open)
+2014-08-12T21:41:13.047+0800 [conn122] end connection 192.168.0.117:49877 (2 connections now open)
+2014-08-12T21:41:13.494+0800 [initandlisten] connection accepted from 192.168.0.117:49936 #123 (3 connections now open)
+2014-08-12T21:41:43.523+0800 [conn123] end connection 192.168.0.117:49936 (2 connections now open)
+2014-08-12T21:41:43.524+0800 [initandlisten] connection accepted from 192.168.0.117:50000 #124 (3 connections now open)
+2014-08-12T21:42:13.551+0800 [conn124] end connection 192.168.0.117:50000 (2 connections now open)
+2014-08-12T21:42:13.552+0800 [initandlisten] connection accepted from 192.168.0.117:50060 #125 (3 connections now open)
+2014-08-12T21:42:43.582+0800 [conn125] end connection 192.168.0.117:50060 (2 connections now open)
+2014-08-12T21:42:43.583+0800 [initandlisten] connection accepted from 192.168.0.117:50123 #126 (3 connections now open)
+2014-08-12T21:43:13.614+0800 [conn126] end connection 192.168.0.117:50123 (2 connections now open)
+2014-08-12T21:43:14.036+0800 [initandlisten] connection accepted from 192.168.0.117:50182 #127 (3 connections now open)
+2014-08-12T21:43:35.983+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:43:35.984+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:43:35.984+0800 [clientcursormon]  connections:3
+2014-08-12T21:43:35.984+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:43:44.065+0800 [conn127] end connection 192.168.0.117:50182 (2 connections now open)
+2014-08-12T21:43:44.066+0800 [initandlisten] connection accepted from 192.168.0.117:50243 #128 (3 connections now open)
+2014-08-12T21:44:14.098+0800 [conn128] end connection 192.168.0.117:50243 (2 connections now open)
+2014-08-12T21:44:14.099+0800 [initandlisten] connection accepted from 192.168.0.117:50305 #129 (3 connections now open)
+2014-08-12T21:44:44.126+0800 [conn129] end connection 192.168.0.117:50305 (2 connections now open)
+2014-08-12T21:44:44.127+0800 [initandlisten] connection accepted from 192.168.0.117:50368 #130 (3 connections now open)
+2014-08-12T21:45:14.153+0800 [conn130] end connection 192.168.0.117:50368 (2 connections now open)
+2014-08-12T21:45:14.586+0800 [initandlisten] connection accepted from 192.168.0.117:50426 #131 (3 connections now open)
+2014-08-12T21:45:44.613+0800 [conn131] end connection 192.168.0.117:50426 (2 connections now open)
+2014-08-12T21:45:44.615+0800 [initandlisten] connection accepted from 192.168.0.117:50488 #132 (3 connections now open)
+2014-08-12T21:46:14.646+0800 [conn132] end connection 192.168.0.117:50488 (2 connections now open)
+2014-08-12T21:46:14.647+0800 [initandlisten] connection accepted from 192.168.0.117:50549 #133 (3 connections now open)
+2014-08-12T21:46:44.675+0800 [conn133] end connection 192.168.0.117:50549 (2 connections now open)
+2014-08-12T21:46:44.675+0800 [initandlisten] connection accepted from 192.168.0.117:50616 #134 (3 connections now open)
+2014-08-12T21:47:14.714+0800 [conn134] end connection 192.168.0.117:50616 (2 connections now open)
+2014-08-12T21:47:15.185+0800 [initandlisten] connection accepted from 192.168.0.117:50676 #135 (3 connections now open)
+2014-08-12T21:47:45.212+0800 [conn135] end connection 192.168.0.117:50676 (2 connections now open)
+2014-08-12T21:47:45.213+0800 [initandlisten] connection accepted from 192.168.0.117:50736 #136 (3 connections now open)
+2014-08-12T21:48:15.242+0800 [conn136] end connection 192.168.0.117:50736 (2 connections now open)
+2014-08-12T21:48:15.243+0800 [initandlisten] connection accepted from 192.168.0.117:50801 #137 (3 connections now open)
+2014-08-12T21:48:36.095+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:48:36.095+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:48:36.096+0800 [clientcursormon]  connections:3
+2014-08-12T21:48:36.096+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:48:45.274+0800 [conn137] end connection 192.168.0.117:50801 (2 connections now open)
+2014-08-12T21:48:45.275+0800 [initandlisten] connection accepted from 192.168.0.117:50864 #138 (3 connections now open)
+2014-08-12T21:49:15.305+0800 [conn138] end connection 192.168.0.117:50864 (2 connections now open)
+2014-08-12T21:49:15.808+0800 [initandlisten] connection accepted from 192.168.0.117:50926 #139 (3 connections now open)
+2014-08-12T21:49:45.840+0800 [conn139] end connection 192.168.0.117:50926 (2 connections now open)
+2014-08-12T21:49:45.841+0800 [initandlisten] connection accepted from 192.168.0.117:50988 #140 (3 connections now open)
+2014-08-12T21:50:15.868+0800 [conn140] end connection 192.168.0.117:50988 (2 connections now open)
+2014-08-12T21:50:15.869+0800 [initandlisten] connection accepted from 192.168.0.117:51050 #141 (3 connections now open)
+2014-08-12T21:50:45.902+0800 [conn141] end connection 192.168.0.117:51050 (2 connections now open)
+2014-08-12T21:50:45.903+0800 [initandlisten] connection accepted from 192.168.0.117:51113 #142 (3 connections now open)
+2014-08-12T21:51:15.931+0800 [conn142] end connection 192.168.0.117:51113 (2 connections now open)
+2014-08-12T21:51:16.388+0800 [initandlisten] connection accepted from 192.168.0.117:51173 #143 (3 connections now open)
+2014-08-12T21:51:46.418+0800 [conn143] end connection 192.168.0.117:51173 (2 connections now open)
+2014-08-12T21:51:46.421+0800 [initandlisten] connection accepted from 192.168.0.117:51235 #144 (3 connections now open)
+2014-08-12T21:52:16.447+0800 [conn144] end connection 192.168.0.117:51235 (2 connections now open)
+2014-08-12T21:52:16.448+0800 [initandlisten] connection accepted from 192.168.0.117:51295 #145 (3 connections now open)
+2014-08-12T21:52:46.476+0800 [conn145] end connection 192.168.0.117:51295 (2 connections now open)
+2014-08-12T21:52:46.477+0800 [initandlisten] connection accepted from 192.168.0.117:51358 #146 (3 connections now open)
+2014-08-12T21:53:16.510+0800 [conn146] end connection 192.168.0.117:51358 (2 connections now open)
+2014-08-12T21:53:17.018+0800 [initandlisten] connection accepted from 192.168.0.117:51419 #147 (3 connections now open)
+2014-08-12T21:53:36.218+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:53:36.219+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:53:36.219+0800 [clientcursormon]  connections:3
+2014-08-12T21:53:36.220+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:53:47.050+0800 [conn147] end connection 192.168.0.117:51419 (2 connections now open)
+2014-08-12T21:53:47.051+0800 [initandlisten] connection accepted from 192.168.0.117:51481 #148 (3 connections now open)
+2014-08-12T21:54:17.079+0800 [conn148] end connection 192.168.0.117:51481 (2 connections now open)
+2014-08-12T21:54:17.080+0800 [initandlisten] connection accepted from 192.168.0.117:51542 #149 (3 connections now open)
+2014-08-12T21:54:47.113+0800 [conn149] end connection 192.168.0.117:51542 (2 connections now open)
+2014-08-12T21:54:47.114+0800 [initandlisten] connection accepted from 192.168.0.117:51605 #150 (3 connections now open)
+2014-08-12T21:55:17.144+0800 [conn150] end connection 192.168.0.117:51605 (2 connections now open)
+2014-08-12T21:55:17.567+0800 [initandlisten] connection accepted from 192.168.0.117:51665 #151 (3 connections now open)
+2014-08-12T21:55:47.591+0800 [conn151] end connection 192.168.0.117:51665 (2 connections now open)
+2014-08-12T21:55:47.592+0800 [initandlisten] connection accepted from 192.168.0.117:51727 #152 (3 connections now open)
+2014-08-12T21:56:17.608+0800 [conn152] end connection 192.168.0.117:51727 (2 connections now open)
+2014-08-12T21:56:17.609+0800 [initandlisten] connection accepted from 192.168.0.117:51794 #153 (3 connections now open)
+2014-08-12T21:56:47.623+0800 [conn153] end connection 192.168.0.117:51794 (2 connections now open)
+2014-08-12T21:56:47.624+0800 [initandlisten] connection accepted from 192.168.0.117:51856 #154 (4 connections now open)
+2014-08-12T21:57:17.641+0800 [conn154] end connection 192.168.0.117:51856 (2 connections now open)
+2014-08-12T21:57:17.920+0800 [initandlisten] connection accepted from 192.168.0.117:51918 #155 (3 connections now open)
+2014-08-12T21:57:47.940+0800 [conn155] end connection 192.168.0.117:51918 (2 connections now open)
+2014-08-12T21:57:47.940+0800 [initandlisten] connection accepted from 192.168.0.117:51982 #156 (3 connections now open)
+2014-08-12T21:58:17.958+0800 [conn156] end connection 192.168.0.117:51982 (2 connections now open)
+2014-08-12T21:58:17.959+0800 [initandlisten] connection accepted from 192.168.0.117:52044 #157 (3 connections now open)
+2014-08-12T21:58:36.298+0800 [clientcursormon] mem (MB) res:12 virt:2835
+2014-08-12T21:58:36.298+0800 [clientcursormon]  mapped (incl journal view):320
+2014-08-12T21:58:36.299+0800 [clientcursormon]  connections:3
+2014-08-12T21:58:36.299+0800 [clientcursormon]  replication threads:32
+2014-08-12T21:58:39.935+0800 [conn31] end connection 127.0.0.1:60684 (2 connections now open)
+2014-08-12T21:58:47.977+0800 [conn157] end connection 192.168.0.117:52044 (1 connection now open)
+2014-08-12T21:58:47.978+0800 [initandlisten] connection accepted from 192.168.0.117:52106 #158 (2 connections now open)
+2014-08-12T21:59:03.782+0800 [conn10] end connection 127.0.0.1:60248 (1 connection now open)
+2014-08-12T21:59:17.998+0800 [conn158] end connection 192.168.0.117:52106 (0 connections now open)
+2014-08-12T21:59:18.317+0800 [initandlisten] connection accepted from 192.168.0.117:52147 #159 (1 connection now open)
